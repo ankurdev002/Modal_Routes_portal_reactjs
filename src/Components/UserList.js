@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Navigation from "./Navigation";
-import { ContextData } from "./ContextData/Context";
+import { ContextData } from "../ContextData/Context";
 import { Link, Outlet } from "react-router-dom";
 import UserStatus from "./UserStatus";
 import { RiRadioButtonLine } from "react-icons/ri";

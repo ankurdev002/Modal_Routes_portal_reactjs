@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import HomePage from "./HomePage";
-import UserList from "./UserList";
-import UserListData from "./UserListData";
-import Active from "./Active";
-import Inactive from "./Inactive";
-import Modal from "./Modal";
+import HomePage from "./Components/HomePage";
+import UserList from "./Components/UserList";
+import UserListData from "./Components/UserListData";
+import Active from "./UserStatus/Active";
+import Inactive from "./UserStatus/Inactive";
+import Modal from "./Modal/Modal";
 
 function App() {
   return (

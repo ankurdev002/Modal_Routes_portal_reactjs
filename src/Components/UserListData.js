@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link, useParams } from "react-router-dom";
-import { ContextData } from "./ContextData/Context";
+import { ContextData } from "../ContextData/Context";
 
 const UserListData = () => {
   const SingleUser = useContext(ContextData);
